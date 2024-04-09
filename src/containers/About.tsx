@@ -15,7 +15,10 @@ const About = () => {
 
   return domLoaded ? (
     <Wrapper id="about" {...getSectionAnimation}>
-      <h2 className="heading-secondary">{title}</h2>
+      <h2 className="heading-secondary pt-50 font-titleFont text-2xl font-semibold flex items-center">
+        {title}
+        <span className="hidden md:inline-flex md:w-60 lgl:w-72 h-[0.5px] bg-gray-700 ml-7"></span>
+      </h2>
 
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">

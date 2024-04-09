@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @layer base {
   /* Color variables for future use */
@@ -42,6 +42,11 @@
   @font-face {
     font-family: 'agustina';
     src: url('/fonts/akronim/Akronim-Regular.ttf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'sfmono';
+    src: url('/public/fonts/SFMono/SFMono-Semibold.ttf') format('opentype');
   }
 
   * {

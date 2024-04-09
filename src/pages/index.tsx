@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import { SEO } from '../components';
+import BigProjects from '../components/big-projects/BigProjects';
 import {
   About,
   Experience,
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Experience />
+        <BigProjects />
         <Skills />
         <Projects />
         {/* <Contact /> */}
