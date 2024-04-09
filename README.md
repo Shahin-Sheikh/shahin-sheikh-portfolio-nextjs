@@ -1,9 +1,9 @@
 <h1 align="center">
-  gaurav-sarage.vercel.app
+ Shahin Sheikh's Portfolio
 </h1>
 
 <p align="center">
-  A portfolio website i.e. <a href="https://gaurav-sarage.vercel.app" target="_blank">gaurav-sarage.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A portfolio website i.e. <a href="#" target="_blank">Shahin Sheikh</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
