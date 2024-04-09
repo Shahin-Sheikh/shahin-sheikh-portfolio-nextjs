@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { HeroImage, ListItem, Wrapper, Link } from '../components';
 import { getSectionAnimation } from '../animations';
-import { aboutSection, author } from '../utils/portfolio';
+import { HeroImage, Link, ListItem, Wrapper } from '../components';
 import { getId } from '../utils/helper';
+import { aboutSection, author } from '../utils/portfolio';
 
 const About = () => {
   const { title, img, list } = aboutSection;
@@ -15,9 +15,6 @@ const About = () => {
 
   return domLoaded ? (
     <Wrapper id="about" {...getSectionAnimation}>
-      <p className="font-code text-lg text-textGreen font-semibold flex items-center tracking-wide">
-        04. What&apos;s Next?
-      </p>
       <h2 className="heading-secondary">{title}</h2>
 
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
