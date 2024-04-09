@@ -1,3 +1,4 @@
+import { StringKeyValueType } from '../types';
 import {
   AboutSectionType,
   ContactSectionType,
@@ -9,7 +10,6 @@ import {
   SkillsSectionType,
   SocialSectionType,
 } from '../types/sections';
-import { StringKeyValueType } from '../types';
 import { resumeFileName } from './config';
 import { getId } from './helper';
 
@@ -93,7 +93,7 @@ export const heroSection: HeroSectionType = {
 // * About Section
 
 export const aboutSection: AboutSectionType = {
-  title: '01. about me',
+  title: 'about me',
   list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [

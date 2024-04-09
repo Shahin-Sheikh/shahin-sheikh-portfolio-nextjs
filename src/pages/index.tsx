@@ -4,10 +4,9 @@ import {
   About,
   Experience,
   Hero,
-  Skills,
-  Contact,
-  Projects,
   Layout,
+  Projects,
+  Skills,
 } from '../containers';
 import { seoData } from '../utils/portfolio';
 
