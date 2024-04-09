@@ -22,7 +22,7 @@ import { getId } from './helper';
 export const socialLinks: StringKeyValueType = {
   instagram: 'https://www.instagram.com/gauravv1902',
   twitter: 'https://twitter.com/0xgauravv',
-  github: 'https://github.com/gaurav-sarage',
+  github: 'https://github.com/Shahin-Sheikh',
   linkedin: 'https://www.linkedin.com/in/gaurav-sarage/',
 };
 
@@ -36,8 +36,7 @@ export const seoData = {
   description:
     'Md. Shahin Sheikh is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/85820227/231264058-df236c47-a8d2-4077-9fa6-3577aa18e8ca.png',
+  image: 'https://avatars.githubusercontent.com/u/59409715?v=4',
   url: '',
   keywords: [
     'Shahin',
@@ -175,70 +174,31 @@ export const skillsSection: SkillsSectionType = {
 // * Experience Section
 
 export const experienceSection: ExperienceSectionType = {
-  title: 'My experience and volunteering',
+  title: 'Where I’ve Worked',
   experiences: [
     {
-      company: 'AirMenus',
-      companyUrl: 'https://about.airmenus.in',
-      role: 'Frontend Developer Intern',
-      started: 'Oct 2022',
+      company: 'TechnoNext Ltd.',
+      companyUrl: 'https://bd.linkedin.com/company/technonext',
+      role: 'Software Engineer',
+      started: 'Jan 2023',
       upto: 'Present',
       tasks: [
-        "Built 15+ dynamic web applications using React and Next.js, resulting in a 15% increase in user engagement.                      Collaborated closely 'with' the design team to implement pixel-perfect UI/UX designs, consistently delivering projects           on-time.",
-        'Developed and maintained responsive web applications for clients in the food and hospitality industry, enhancing their           online presence and customer engagement. Implemented Tailwind CSS to streamline the development process, reducing CSS            codebase by 20%',
-        'Collaborated with clients to gather project requirements and translate them into actionable technical tasks, ensuring            client expectations were met or exceeded.',
+        'At TechnoNext Ltd., I played a key role in crafting innovative digital solutions across various sectors like Ecommerce, Food Delivery, and Online Travel Agencies (OTA). My expertise lies in front-end development, utilizing ReactJS, NextJS, Typescript, and a comprehensive design library toolkit encompassing Material UI, Ant Design, Prime React, and Formik. Additionally, my backend development experience includes Go/Gin, NodeJS, PostgreSQL, and MongoDB.        ',
+        'Translate creative concepts into tangible solutions through collaboration with designers, project managers, and engineers, meeting client and stakeholder needs.',
+        'Drive effective engineering leadership by collaborating closely, facilitating knowledge sharing sessions, and actively mentoring team members.',
       ],
     },
     {
-      company: 'StarkCon',
-      companyUrl: 'https://starkcon.com',
-      role: 'StarkCon Cairo Fellow',
-      started: 'January 2023',
-      upto: 'March 2023',
-      tasks: [
-        'Selected for the first cohort of StarkCon Cairo Fellow program and got trained on blockchain, Cairo and started building on StarkNet. ',
-        'Underwent a 5 week program under mentorship of professionals from StarkNet ecosystem. ',
-        'Learnt how to setup Cairo environment, blockchain, basics of ZK and Cairo, writing smart contracts and Starklings.',
-        'Earned an exclusive NFT as proof of completion and custom swag kit.',
-      ],
-    },
-    {
-      company: 'Yellow Fryum',
-      companyUrl: 'https://yellowfryum.com',
-      role: 'Frontend Developer & Research Intern',
-      started: 'March 2022',
+      company: 'Teletalk Bangladesh Limited',
+      companyUrl: 'https://www.teletalk.com.bd/bn/',
+      role: 'Software Engineer Intern',
+      started: 'January 2022',
       upto: 'May 2022',
       tasks: [
-        'Spearheaded the design and development of a responsive landing page using ReactJS and Tailwind CSS, resulting in a               40% increase in page load speed',
-        'Worked closely with a cross-functional team of 5 interns to ideate and implement UI/UX improvements, resulting in a 20%          boost in user engagement and a 15% increase in conversion rates.',
-        'Conducted user research and usability testing, gathering feedback from over 100+ users, which directly influenced                design decisions and led to a 30% improvement in user satisfaction scores.',
-        'Met project deadlines consistently, delivering good-quality code and designs on time.',
+        'Implemented Approval system, Improved data rendering time. Developed an efficient and fast searching algorithm for the approval system. ',
+        'Managed up to 2 projects or tasks at a given time while under pressure.',
       ],
     },
-    {
-      company: 'Google Cloud India',
-      companyUrl: 'https://cloud.google.com/',
-      role: 'Google Cloud Ready Facilitator',
-      started: 'March 2022',
-      upto: 'June 2022',
-      tasks: [
-        'Selected as Google Cloud Facilitator for my institution.',
-        'Enrolled 600+ students from mine as well as students all across India.',
-        'Trained and helped them complete skill badges and quests in the domains of Cloud Infrastructure, Cloud Native Application Development, Big Data and Machine Learning, Security, Machine Learning & AI',
-        'At the end of program, approximately 550 students completed their milestones and gained significant knowledge in their respective tracks',
-        'The institution as a whole achieved Milestone 3 out of 4 which is a big feat with its first year in the GCRF program.',
-      ],
-    },
-    // {
-    //   company: '',
-    //   companyUrl: '',
-    //   role: '',
-    //   started: '',
-    //   upto: '',
-    //   tasks: [
-
-    //   ],
-    // },
   ],
 };
 
