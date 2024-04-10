@@ -1,4 +1,7 @@
 import React from 'react';
+import { RiGithubLine } from 'react-icons/ri';
+import { SlSocialYoutube } from 'react-icons/sl';
+import { FiExternalLink } from 'react-icons/fi';
 
 import { ImageProps } from 'next/image';
 import Image from 'next/image';
@@ -45,7 +48,7 @@ const ProjectCard: React.FC<Props> = ({
     <div>
       <div className="max-w-containerSmall mx-auto flex flex-col items-center justify-between gap-28 mt-10">
         {/* MEDIA QUEREY: LARGE SCREENS */}
-        <div className="hidden flex-col mdl:flex sml:flex-row gap-6 ml-16">
+        <div className="hidden flex-col mdl:flex sml:flex-row gap-6 ml-16 pb-16">
           {/* Image-div*/}
           <a
             className="w-full h-full justify-center align-middle relative group sml:w-1/2"
@@ -64,7 +67,7 @@ const ProjectCard: React.FC<Props> = ({
             </div>
           </a>
           {/* Text-div */}
-          <div className="w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between items-end text-right md:-ml-16 ">
+          <div className="w-full z-10 sml:w-1/2 flex flex-col sml:justify-between items-end text-right md:-ml-16">
             <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured Project
             </p>
@@ -77,36 +80,36 @@ const ProjectCard: React.FC<Props> = ({
               {description}
             </p>
             {/* list of tech used */}
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGreen">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text">
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
             </ul>
             {/* Links to showcase project  🎯TO-DO */}
             <div className="text-2xl flex gap-4">
-              {/* GitHub */}
+              {/* GitHub
               <a
                 className="hover:text-textGreen duration-300"
                 href={gitLink}
                 target="_blank"
               >
-                {/* <RiGithubLine /> */}
+                <RiGithubLine />
               </a>
-              {/* YouTube */}
+              YouTube
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}
                 target="_blank"
               >
-                {/* <SlSocialYoutube /> */}
+                <SlSocialYoutube />
               </a>
-              {/* LiveDemo */}
+              LiveDemo */}
               <a
                 className="hover:text-textGreen duration-300"
                 href={liveLink}
                 target="_blank"
               >
-                {/* <FiExternalLink /> */}
+                <FiExternalLink />
               </a>
             </div>
           </div>
@@ -133,7 +136,7 @@ const ProjectCard: React.FC<Props> = ({
             </p>
 
             {/* list of tech used */}
-            <ul className="text-xs font-codeFont tracking-wide flex gap-5 text-textGreen">
+            <ul className="text-xs font-codeFont tracking-wide flex gap-5 text">
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
@@ -141,29 +144,29 @@ const ProjectCard: React.FC<Props> = ({
 
             {/* Links to showcase project  🎯TO-DO */}
             <div className="text-2xl flex gap-4 pb-10 items-end text-right">
-              {/* GitHub */}
+              {/*  GitHub
               <a
                 className="hover:text-textGreen duration-300"
                 href={gitLink}
                 target="_blank"
               >
-                {/* <RiGithubLine /> */}
+                <RiGithubLine />
               </a>
-              {/* YouTube */}
+              YouTube
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}
                 target="_blank"
               >
-                {/* <SlSocialYoutube /> */}
+                <SlSocialYoutube />
               </a>
-              {/* LiveDemo */}
+              LiveDemo */}
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}
                 target="_blank"
               >
-                {/* <FiExternalLink /> */}
+                <FiExternalLink />
               </a>
             </div>
           </div>

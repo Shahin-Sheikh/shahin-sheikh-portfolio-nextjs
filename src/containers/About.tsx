@@ -23,24 +23,27 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Md. Shahin Sheikh, an artist as well as crazy full
-            stack web developer who wants to explore every tech stack.
+            Hi, my name is Md. Shahin Sheikh, I'm an accomplished full-stack
+            software developer, proficient in a diverse array of front-end and
+            back-end languages, responsive frameworks, and adeptly skilled in
+            managing various database systems. Proficient in building responsive
+            and dynamic websites using ReactJS, NextJs, NodeJs, Go, PostgreSQL,
+            MongoDB with a focus on user-friendly interfaces and seamless
+            navigation. A strong analytical thinker, I thrive on identifying
+            challenges and implementing creative solutions to ensure optimal
+            project outcomes.
           </p>
           <p>
             Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
+            renowned -{' '}
             <Link
-              href="https://about.airmenus.in"
+              href="https://www.linkedin.com/company/technonext/mycompany/"
               target="_blank"
               className="text-accent"
             >
-              AirMenus
+              TechnoNext Ltd
             </Link>
             .
-          </p>
-          <p>
-            My goal is to become a blockchain developer and settle for a good
-            remote job.
           </p>
 
           {list && (

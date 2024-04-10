@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { RiGithubLine } from 'react-icons/ri';
+import { SlSocialYoutube } from 'react-icons/sl';
+import { FiExternalLink } from 'react-icons/fi';
 import { ImageProps } from 'next/image';
 import Image from 'next/image';
 
@@ -32,7 +34,7 @@ const ProjectCardReversed: React.FC<Props> = ({
     <div>
       <div className="max-w-containerSmall flex flex-col items-center justify-between gap-28 mt-10 ">
         {/* MEDIA QUEREY: LARGE SCREENS */}
-        <div className="hidden flex-col mdl:flex sml:flex-row-reverse gap-2 mr-10">
+        <div className="hidden flex-col mdl:flex sml:flex-row-reverse gap-6 mr-10 pb-16">
           {/* Image-div*/}
 
           <a
@@ -66,7 +68,7 @@ const ProjectCardReversed: React.FC<Props> = ({
             </p>
 
             {/* list of tech used */}
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textGreen">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text">
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
@@ -80,7 +82,7 @@ const ProjectCardReversed: React.FC<Props> = ({
                 href={gitLink}
                 target="_blank"
               >
-                {/* <RiGithubLine /> */}
+                <RiGithubLine />
               </a>
               {/* YouTube */}
               <a
@@ -123,7 +125,7 @@ const ProjectCardReversed: React.FC<Props> = ({
             </p>
 
             {/* list of tech used */}
-            <ul className="text-xs font-codeFont tracking-wide flex gap-5 text-textGreen">
+            <ul className="text-xs font-codeFont tracking-wide flex gap-5 text">
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
@@ -131,29 +133,29 @@ const ProjectCardReversed: React.FC<Props> = ({
 
             {/* Links to showcase project  🎯TO-DO */}
             <div className="text-2xl flex gap-4 pb-10 items-end text-right">
-              {/* GitHub */}
+              {/* GitHub
               <a
                 className="hover:text-textGreen duration-300"
                 href={gitLink}
                 target="_blank"
               >
-                {/* <RiGithubLine /> */}
+                <RiGithubLine />
               </a>
-              {/* YouTube */}
+              YouTube
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}
                 target="_blank"
               >
-                {/* <SlSocialYoutube /> */}
-              </a>
-              {/* LiveDemo */}
+                <SlSocialYoutube />
+              </a> */}
+              LiveDemo
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}
                 target="_blank"
               >
-                {/*  <FiExternalLink /> */}
+                <FiExternalLink />
               </a>
             </div>
           </div>

@@ -7,6 +7,7 @@ import {
   HeroSectionType,
   NavbarSectionType,
   ProjectsSectionType,
+  Section,
   SkillsSectionType,
   SocialSectionType,
 } from '../types/sections';
@@ -115,6 +116,10 @@ export const aboutSection: AboutSectionType = {
   img: '/shahin-sheikh.jpg',
 };
 
+export const bigProjectSection: Section = {
+  title: 'A Compilation of My Work',
+};
+
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
@@ -129,43 +134,28 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        'Develop a dynamic and responsive web application: Utilize Next.js, a React framework, to build an interactive and user-friendly website that adapts seamlessly across various devices.',
+        'Implement RESTful APIs: Construct robust APIs that adhere to the REST architectural style. Choose between Go/Gin or Node.js for backend development, allowing communication between the frontend and data sources.',
+        'Administer PostgreSQL and MongoDB databases: Manage data storage and retrieval using either PostgreSQL, a relational database, or MongoDB, a NoSQL database, depending on your projects specific needs.',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
-        { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
-        { name: 'node.js', icon: 'logos:nodejs-icon' },
-        { name: 'react.js', icon: 'logos:react' },
         { name: 'next.js', icon: 'logos:nextjs-icon' },
+        { name: 'react.js', icon: 'logos:react' },
+        { name: 'golang', icon: 'logos:go' },
+        { name: 'node.js', icon: 'logos:nodejs-icon' },
+        { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
+        { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
         { name: 'tailwind CSS', icon: 'logos:tailwindcss-icon' },
         { name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-      ],
-    },
-    {
-      id: getId(),
-      title: 'blockchain development',
-      lottie: {
-        light: '/lotties/ethereum.json',
-        dark: '/lotties/ethereum-dark.json',
-      },
-      points: [
-        'Experience in developing Smart Contract using Solidity & Ethereum',
-        'Developing NFT Smart Contracts using ERC-721 Token Standard',
-        'Building Dapps with React.js & Solidity using Web3.js',
-      ],
-      softwareSkills: [
-        { name: 'ethereum', icon: 'logos:ethereum' },
-        { name: 'solidity', icon: 'logos:solidity' },
-        { name: 'metamask', icon: 'logos:metamask-icon' },
+        { name: 'postgresql', icon: 'vscode-icons:file-type-pgsql' },
+        { name: 'mongodb', icon: 'vscode-icons:file-type-mongo' },
       ],
     },
   ],
