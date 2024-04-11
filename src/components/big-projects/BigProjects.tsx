@@ -50,7 +50,7 @@ const BigProjects: React.FC = () => {
 
   return (
     <div
-      id="Projects"
+      id="work"
       className="max-w-containerSmall mx-auto min-h-fit py-10  lgl:py-32 flex flex-col gap-3"
     >
       <h2 className="heading-secondary pt-50 font-titleFont text-2xl font-semibold flex items-center">

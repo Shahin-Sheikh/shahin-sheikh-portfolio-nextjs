@@ -2,6 +2,7 @@ import { StringKeyValueType } from '../types';
 import {
   AboutSectionType,
   ContactSectionType,
+  EducationSectionType,
   ExperienceSectionType,
   FooterSectionType,
   HeroSectionType,
@@ -21,10 +22,10 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  instagram: 'https://www.instagram.com/gauravv1902',
-  twitter: 'https://twitter.com/0xgauravv',
+  instagram: 'https://www.instagram.com/stmt_shahin/',
+  twitter: 'https://twitter.com/smtp_shahin',
   github: 'https://github.com/Shahin-Sheikh',
-  linkedin: 'https://www.linkedin.com/in/gaurav-sarage/',
+  linkedin: 'https://www.linkedin.com/in/shahinsheikh/',
 };
 
 export const author = {
@@ -61,8 +62,10 @@ export const seoData = {
 export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'about', url: '/#about' },
-    { name: 'skills', url: '/#skills' },
     { name: 'experience', url: '/#experience' },
+    { name: 'work', url: '/#work' },
+    { name: 'education', url: '/#education' },
+    { name: 'skills', url: '/#skills' },
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
@@ -183,6 +186,37 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://www.teletalk.com.bd/bn/',
       role: 'Software Engineer Intern',
       started: 'January 2022',
+      upto: 'May 2022',
+      tasks: [
+        'Implemented Approval system, Improved data rendering time. Developed an efficient and fast searching algorithm for the approval system. ',
+        'Managed up to 2 projects or tasks at a given time while under pressure.',
+      ],
+    },
+  ],
+};
+
+// * Experience Section
+
+export const educationSection: EducationSectionType = {
+  title: 'Education',
+  educations: [
+    {
+      institute: 'TechnoNext Ltd.',
+      instituteurl: 'https://bd.linkedin.com/company/technonext',
+      degree: 'Software Engineer',
+      session: 'Jan 2023',
+      upto: 'Present',
+      tasks: [
+        'At TechnoNext Ltd., I played a key role in crafting innovative digital solutions across various sectors like Ecommerce, Food Delivery, and Online Travel Agencies (OTA). My expertise lies in front-end development, utilizing ReactJS, NextJS, Typescript, and a comprehensive design library toolkit encompassing Material UI, Ant Design, Prime React, and Formik. Additionally, my backend development experience includes Go/Gin, NodeJS, PostgreSQL, and MongoDB.        ',
+        'Translate creative concepts into tangible solutions through collaboration with designers, project managers, and engineers, meeting client and stakeholder needs.',
+        'Drive effective engineering leadership by collaborating closely, facilitating knowledge sharing sessions, and actively mentoring team members.',
+      ],
+    },
+    {
+      institute: 'Teletalk Bangladesh Limited',
+      instituteurl: 'https://www.teletalk.com.bd/bn/',
+      degree: 'Software Engineer Intern',
+      session: 'January 2022',
       upto: 'May 2022',
       tasks: [
         'Implemented Approval system, Improved data rendering time. Developed an efficient and fast searching algorithm for the approval system. ',
