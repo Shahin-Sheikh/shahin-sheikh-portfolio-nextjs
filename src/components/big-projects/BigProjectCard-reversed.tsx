@@ -76,29 +76,12 @@ const ProjectCardReversed: React.FC<Props> = ({
 
             {/* Links to showcase project  🎯TO-DO */}
             <div className="text-2xl flex gap-4">
-              {/* GitHub */}
-              <a
-                className="hover:text-textGreen duration-300"
-                href={gitLink}
-                target="_blank"
-              >
-                <RiGithubLine />
-              </a>
-              {/* YouTube */}
-              <a
-                className="hover:text-textGreen duration-300"
-                href={youtubeLink}
-                target="_blank"
-              >
-                {/* <SlSocialYoutube /> */}
-              </a>
-              {/* LiveDemo */}
               <a
                 className="hover:text-textGreen duration-300"
                 href={liveLink}
                 target="_blank"
               >
-                {/* <FiExternalLink /> */}
+                <FiExternalLink />
               </a>
             </div>
           </div>
@@ -133,23 +116,6 @@ const ProjectCardReversed: React.FC<Props> = ({
 
             {/* Links to showcase project  🎯TO-DO */}
             <div className="text-2xl flex gap-4 pb-10 items-end text-right">
-              {/* GitHub
-              <a
-                className="hover:text-textGreen duration-300"
-                href={gitLink}
-                target="_blank"
-              >
-                <RiGithubLine />
-              </a>
-              YouTube
-              <a
-                className="hover:text-textGreen duration-300"
-                href={youtubeLink}
-                target="_blank"
-              >
-                <SlSocialYoutube />
-              </a> */}
-              LiveDemo
               <a
                 className="hover:text-textGreen duration-300"
                 href={youtubeLink}

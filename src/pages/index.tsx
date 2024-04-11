@@ -4,10 +4,10 @@ import BigProjects from '../components/big-projects/BigProjects';
 import SmallProjects from '../components/small-projects/SmallProjects';
 import {
   About,
+  Contact,
   Experience,
   Hero,
   Layout,
-  Projects,
   Skills,
 } from '../containers';
 import Education from '../containers/Education';
@@ -25,8 +25,7 @@ const Home: NextPage = () => {
         <Education />
         <Skills />
         <SmallProjects />
-        <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </Layout>
     </>
   );

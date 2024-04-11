@@ -41,7 +41,7 @@ const About = () => {
               target="_blank"
               className="text-accent"
             >
-              TechnoNext Ltd
+              @TechnoNext Ltd
             </Link>
             .
           </p>

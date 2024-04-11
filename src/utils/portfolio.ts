@@ -65,7 +65,7 @@ export const navbarSection: NavbarSectionType = {
     { name: 'experience', url: '/#experience' },
     { name: 'work', url: '/#work' },
     { name: 'education', url: '/#education' },
-    /*   { name: 'skills', url: '/#skills' }, */
+    { name: 'skills', url: '/#skills' },
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
@@ -121,6 +121,10 @@ export const aboutSection: AboutSectionType = {
 
 export const bigProjectSection: Section = {
   title: 'A Compilation of My Work',
+};
+
+export const smallProjectSection: Section = {
+  title: 'Other Noteworthy Projects',
 };
 
 // * Skills Section
@@ -182,7 +186,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'Teletalk Bangladesh Limited',
+      company: 'Teletalk',
       companyUrl: 'https://www.teletalk.com.bd/bn/',
       role: 'Software Engineer Intern',
       started: 'January 2022',
@@ -237,94 +241,13 @@ export const educationSection: EducationSectionType = {
   ],
 };
 
-// * Projects Section
-
-export const projectsSection: ProjectsSectionType = {
-  title: 'my projects',
-  projects: [
-    {
-      id: getId(),
-      name: 'Instant AI',
-      url: 'https://github.com/gaurav-sarage/InstantAI',
-      repo: 'https://github.com/gaurav-sarage/InstantAI',
-      img: '',
-      year: 2023,
-      tags: ['NextJS', 'Typescript', 'Shadcn', 'Prisma'],
-    },
-    {
-      id: getId(),
-      name: 'ShopTronics - eCommerce',
-      url: 'https://github.com/gaurav-sarage/shopTronics-ecommerce',
-      repo: 'https://github.com/gaurav-sarage/shopTronics-ecommerce',
-      img: 'https://user-images.githubusercontent.com/85820227/231495891-ec7c33c6-7f36-41fe-8efd-3e992d5b800d.png',
-      year: 2023,
-      tags: ['React', 'Scss', 'HTML', 'Strapi', 'Stripe Payment Gateway'],
-    },
-    {
-      id: getId(),
-      name: 'ProShop MERN eCommerce',
-      url: 'https://github.com/gaurav-sarage/ecommerce',
-      repo: 'https://github.com/gaurav-sarage/ecommerce',
-      img: 'https://user-images.githubusercontent.com/85820227/231498672-64b2e2ff-d987-45a3-bca6-5d8d89759360.png',
-      year: 2022,
-      tags: ['React', 'Redux', 'Express', 'MongoDB'],
-    },
-    {
-      id: getId(),
-      name: 'Photo Gallery App (React)',
-      url: 'https://gsierra19-photo-gallery-app.web.app/',
-      repo: 'https://github.com/gaurav-sarage/photo-gallery-app',
-      img: 'https://user-images.githubusercontent.com/85820227/250177861-cd5a5cd8-590e-49a1-92b5-4273aeee2f57.png',
-      year: 2023,
-      tags: ['ReactJS', 'CSS', 'JavaScript'],
-    },
-    {
-      id: getId(),
-      name: 'Modern Art Gallery',
-      url: 'https://gaurav-sarage.github.io/Client-02/',
-      repo: 'https://github.com/gaurav-sarage/Client-02/',
-      img: 'https://user-images.githubusercontent.com/85820227/231500007-aa155693-1871-4e44-8152-9c230861e7bd.png',
-      year: 2022,
-      tags: ['HTML', 'CSS'],
-    },
-    {
-      id: getId(),
-      name: 'countries app using REST API',
-      url: 'https://country-api-react-app.netlify.app/',
-      repo: 'https://github.com/gaurav-sarage/country-api',
-      img: 'https://user-images.githubusercontent.com/85820227/231487782-eb60fb21-32ae-4012-9190-7c42be3d18e8.png',
-      year: 2022,
-      tags: ['React', 'Sass'],
-    },
-    {
-      id: getId(),
-      name: 'GitHub User Search',
-      url: 'https://gaurav-sarage.github.io/github-user-search/',
-      repo: 'https://github.com/gaurav-sarage/github-user-search',
-      img: 'https://user-images.githubusercontent.com/85820227/231501132-067311ef-2222-46d0-a20a-f0bf48827e01.png',
-      year: 2021,
-      tags: ['HTML', 'CSS', 'JavaScript'],
-    },
-    {
-      id: getId(),
-      name: 'Hackathon Portfolio',
-      url: 'https://gaurav-sarage.github.io/webathon-portfolio/',
-      repo: 'https://github.com/gaurav-sarage/webathon-portfolio',
-      img: 'https://user-images.githubusercontent.com/85820227/233788920-7c76e976-2f42-4750-a6ce-ad0fb2eb405d.png',
-      year: 2022,
-      tags: ['HTML', 'CSS', 'JavaScript'],
-    },
-  ],
-};
-
 // * Contact Section
 
 export const contactSection: ContactSectionType = {
   title: 'get in touch',
   subtitle: "what's next",
   paragraphs: [
-    "I'm currently looking for a remote job or any new opportunities.",
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    'Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!',
   ],
   link: `mailto:${author.email}`,
 };
