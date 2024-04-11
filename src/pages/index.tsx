@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import { SEO } from '../components';
 import BigProjects from '../components/big-projects/BigProjects';
+import SmallProjects from '../components/small-projects/SmallProjects';
 import {
   About,
   Experience,
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         <BigProjects />
         <Education />
         <Skills />
+        <SmallProjects />
         <Projects />
         {/* <Contact /> */}
       </Layout>

@@ -65,7 +65,7 @@ export const navbarSection: NavbarSectionType = {
     { name: 'experience', url: '/#experience' },
     { name: 'work', url: '/#work' },
     { name: 'education', url: '/#education' },
-    { name: 'skills', url: '/#skills' },
+    /*   { name: 'skills', url: '/#skills' }, */
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
