@@ -13,8 +13,16 @@ const EduTablist = ({ educations }: Props) => {
   const [activeExperience, setActiveExperience] = useState(0);
   const windowWidth = useWindowWidth();
 
-  const { degree, institute, instituteurl, session, upto, tasks } =
-    educations[activeExperience];
+  const {
+    degree,
+    institute,
+    instituteurl,
+    session,
+    upto,
+    tasks,
+    degreeType,
+    result,
+  } = educations[activeExperience];
 
   const sm = getBreakpointsWidth('sm');
 
@@ -31,7 +39,7 @@ const EduTablist = ({ educations }: Props) => {
     <div className="flex flex-col sm:flex-row text-sm md:text-base gap-6 md:gap-10 min-h-[250px]">
       {/* Sidebar */}
       <div className="font-mono text-xs sm:text-sm relative flex justify-start sm:flex-col overflow-scroll sm:overflow-auto sm:min-w-[150px]">
-        {educations.map(({ institute }, i) => (
+        {educations.map(({ degreeType }, i) => (
           <button
             key={getId()}
             className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
@@ -39,7 +47,7 @@ const EduTablist = ({ educations }: Props) => {
             }`}
             onClick={() => setActiveExperience(i)}
           >
-            {institute}
+            {degreeType}
           </button>
         ))}
         {/* Slider */}
@@ -62,6 +70,9 @@ const EduTablist = ({ educations }: Props) => {
             <>
               {session} - {upto}
             </>
+          </p>
+          <p className="text-xs font-mono capitalize">
+            <>{result}</>
           </p>
         </div>
 

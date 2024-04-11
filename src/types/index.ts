@@ -26,6 +26,8 @@ export type ExperienceType = {
 
 // env
 export type EducationType = {
+  result: string;
+  degreeType: string;
   degree: string;
   institute: string;
   instituteurl: string;
