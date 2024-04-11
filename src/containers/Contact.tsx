@@ -20,7 +20,7 @@ const Contact = () => {
       ))}
 
       <Button type="link" size="lg" href={link} center className="mt-12">
-        Let's Connect
+        Say Hello
       </Button>
     </Wrapper>
   );

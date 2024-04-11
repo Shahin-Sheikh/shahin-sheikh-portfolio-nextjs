@@ -206,7 +206,7 @@ export const educationSection: EducationSectionType = {
   educations: [
     {
       degreeType: 'Undergraduate',
-      institute: 'American Internation University - Bangladesh (AIUB)',
+      institute: 'American International University - Bangladesh (AIUB)',
       instituteurl: 'https://www.aiub.edu/',
       degree: 'BSc in Computer Science & Engineering',
       result: '',
@@ -278,6 +278,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Design Inspiration @Brittany Chiang',
+  title: 'Inspired by @Brittany Chiang',
   link: 'https://github.com/bchiang7',
 };
