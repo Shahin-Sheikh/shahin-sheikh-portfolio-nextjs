@@ -18,7 +18,7 @@ const SmallProjects = () => {
           view the archive
         </a>
       </div>
-      <div className="grid grid-cols-3 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 items-center justify-center gap-6 mt-10">
+      <div className="grid grid-cols-3 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 max-sm:grid-cols-1 items-center justify-center gap-6 mt-10">
         <ProjectCard
           title="Logistics System"
           description="Logistics software automates manual processes and streamlines operations, improving efficiency."
