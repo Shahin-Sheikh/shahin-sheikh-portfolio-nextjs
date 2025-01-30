@@ -2,11 +2,13 @@ import { StringKeyValueType } from '../types';
 import {
   AboutSectionType,
   ContactSectionType,
+  EducationSectionType,
   ExperienceSectionType,
   FooterSectionType,
   HeroSectionType,
   NavbarSectionType,
   ProjectsSectionType,
+  Section,
   SkillsSectionType,
   SocialSectionType,
 } from '../types/sections';
@@ -20,10 +22,10 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  instagram: 'https://www.instagram.com/gauravv1902',
-  twitter: 'https://twitter.com/0xgauravv',
+  instagram: 'https://www.instagram.com/stmt_shahin/',
+  twitter: 'https://twitter.com/smtp_shahin',
   github: 'https://github.com/Shahin-Sheikh',
-  linkedin: 'https://www.linkedin.com/in/gaurav-sarage/',
+  linkedin: 'https://www.linkedin.com/in/shahinsheikh/',
 };
 
 export const author = {
@@ -60,8 +62,10 @@ export const seoData = {
 export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'about', url: '/#about' },
-    { name: 'skills', url: '/#skills' },
     { name: 'experience', url: '/#experience' },
+    { name: 'work', url: '/#work' },
+    { name: 'education', url: '/#education' },
+    { name: 'skills', url: '/#skills' },
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
@@ -115,6 +119,14 @@ export const aboutSection: AboutSectionType = {
   img: '/shahin-sheikh.jpg',
 };
 
+export const bigProjectSection: Section = {
+  title: 'A Compilation of My Work',
+};
+
+export const smallProjectSection: Section = {
+  title: 'Other Noteworthy Projects',
+};
+
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
@@ -129,43 +141,28 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        'Develop a dynamic and responsive web application: Utilize Next.js, a React framework, to build an interactive and user-friendly website that adapts seamlessly across various devices.',
+        'Implement RESTful APIs: Construct robust APIs that adhere to the REST architectural style. Choose between Go/Gin or Node.js for backend development, allowing communication between the frontend and data sources.',
+        'Administer PostgreSQL and MongoDB databases: Manage data storage and retrieval using either PostgreSQL, a relational database, or MongoDB, a NoSQL database, depending on your projects specific needs.',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
-        { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
-        { name: 'node.js', icon: 'logos:nodejs-icon' },
-        { name: 'react.js', icon: 'logos:react' },
         { name: 'next.js', icon: 'logos:nextjs-icon' },
+        { name: 'react.js', icon: 'logos:react' },
+        { name: 'golang', icon: 'logos:go' },
+        { name: 'node.js', icon: 'logos:nodejs-icon' },
+        { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
+        { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
         { name: 'tailwind CSS', icon: 'logos:tailwindcss-icon' },
         { name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-      ],
-    },
-    {
-      id: getId(),
-      title: 'blockchain development',
-      lottie: {
-        light: '/lotties/ethereum.json',
-        dark: '/lotties/ethereum-dark.json',
-      },
-      points: [
-        'Experience in developing Smart Contract using Solidity & Ethereum',
-        'Developing NFT Smart Contracts using ERC-721 Token Standard',
-        'Building Dapps with React.js & Solidity using Web3.js',
-      ],
-      softwareSkills: [
-        { name: 'ethereum', icon: 'logos:ethereum' },
-        { name: 'solidity', icon: 'logos:solidity' },
-        { name: 'metamask', icon: 'logos:metamask-icon' },
+        { name: 'postgresql', icon: 'vscode-icons:file-type-pgsql' },
+        { name: 'mongodb', icon: 'vscode-icons:file-type-mongo' },
       ],
     },
   ],
@@ -189,7 +186,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'Teletalk Bangladesh Limited',
+      company: 'Teletalk',
       companyUrl: 'https://www.teletalk.com.bd/bn/',
       role: 'Software Engineer Intern',
       started: 'January 2022',
@@ -202,82 +199,44 @@ export const experienceSection: ExperienceSectionType = {
   ],
 };
 
-// * Projects Section
+// * Experience Section
 
-export const projectsSection: ProjectsSectionType = {
-  title: 'my projects',
-  projects: [
+export const educationSection: EducationSectionType = {
+  title: 'Education',
+  educations: [
     {
-      id: getId(),
-      name: 'Instant AI',
-      url: 'https://github.com/gaurav-sarage/InstantAI',
-      repo: 'https://github.com/gaurav-sarage/InstantAI',
-      img: '',
-      year: 2023,
-      tags: ['NextJS', 'Typescript', 'Shadcn', 'Prisma'],
+      degreeType: 'Undergraduate',
+      institute: 'American International University - Bangladesh (AIUB)',
+      instituteurl: 'https://www.aiub.edu/',
+      degree: 'BSc in Computer Science & Engineering',
+      result: '',
+      session: 'Jan 2018',
+      upto: 'Apr 2022',
+      tasks: [
+        'I am a proud alumnus of American International University - Bangladesh (AIUB), holding a Bachelor of Science degree in Computer Science & Engineering—a transformative educational experience that has shaped my technical prowess and problem-solving capabilities.',
+        'A highlight of my AIUB journey was engaging in capstone projects and research endeavors. These initiatives allowed me to explore specialized areas within computer science, developing solutions that showcased innovation and practicality—a testament to the holistic education AIUB offered.',
+        'Throughout my tenure at AIUB, I engaged with a rigorous curriculum that combined theoretical knowledge with hands-on practical applications. From algorithms and data structures to software engineering principles, I gained a comprehensive understanding of computer science fundamentals that continue to underpin my professional journey.',
+      ],
     },
     {
-      id: getId(),
-      name: 'ShopTronics - eCommerce',
-      url: 'https://github.com/gaurav-sarage/shopTronics-ecommerce',
-      repo: 'https://github.com/gaurav-sarage/shopTronics-ecommerce',
-      img: 'https://user-images.githubusercontent.com/85820227/231495891-ec7c33c6-7f36-41fe-8efd-3e992d5b800d.png',
-      year: 2023,
-      tags: ['React', 'Scss', 'HTML', 'Strapi', 'Stripe Payment Gateway'],
+      degreeType: 'Higher Secondary',
+      institute: 'Dhaka City College',
+      result: '',
+      instituteurl: 'https://www.dhakacitycollege.edu.bd/',
+      degree: 'Science',
+      session: 'June 2015',
+      upto: 'June 2017',
+      tasks: ['', ''],
     },
     {
-      id: getId(),
-      name: 'ProShop MERN eCommerce',
-      url: 'https://github.com/gaurav-sarage/ecommerce',
-      repo: 'https://github.com/gaurav-sarage/ecommerce',
-      img: 'https://user-images.githubusercontent.com/85820227/231498672-64b2e2ff-d987-45a3-bca6-5d8d89759360.png',
-      year: 2022,
-      tags: ['React', 'Redux', 'Express', 'MongoDB'],
-    },
-    {
-      id: getId(),
-      name: 'Photo Gallery App (React)',
-      url: 'https://gsierra19-photo-gallery-app.web.app/',
-      repo: 'https://github.com/gaurav-sarage/photo-gallery-app',
-      img: 'https://user-images.githubusercontent.com/85820227/250177861-cd5a5cd8-590e-49a1-92b5-4273aeee2f57.png',
-      year: 2023,
-      tags: ['ReactJS', 'CSS', 'JavaScript'],
-    },
-    {
-      id: getId(),
-      name: 'Modern Art Gallery',
-      url: 'https://gaurav-sarage.github.io/Client-02/',
-      repo: 'https://github.com/gaurav-sarage/Client-02/',
-      img: 'https://user-images.githubusercontent.com/85820227/231500007-aa155693-1871-4e44-8152-9c230861e7bd.png',
-      year: 2022,
-      tags: ['HTML', 'CSS'],
-    },
-    {
-      id: getId(),
-      name: 'countries app using REST API',
-      url: 'https://country-api-react-app.netlify.app/',
-      repo: 'https://github.com/gaurav-sarage/country-api',
-      img: 'https://user-images.githubusercontent.com/85820227/231487782-eb60fb21-32ae-4012-9190-7c42be3d18e8.png',
-      year: 2022,
-      tags: ['React', 'Sass'],
-    },
-    {
-      id: getId(),
-      name: 'GitHub User Search',
-      url: 'https://gaurav-sarage.github.io/github-user-search/',
-      repo: 'https://github.com/gaurav-sarage/github-user-search',
-      img: 'https://user-images.githubusercontent.com/85820227/231501132-067311ef-2222-46d0-a20a-f0bf48827e01.png',
-      year: 2021,
-      tags: ['HTML', 'CSS', 'JavaScript'],
-    },
-    {
-      id: getId(),
-      name: 'Hackathon Portfolio',
-      url: 'https://gaurav-sarage.github.io/webathon-portfolio/',
-      repo: 'https://github.com/gaurav-sarage/webathon-portfolio',
-      img: 'https://user-images.githubusercontent.com/85820227/233788920-7c76e976-2f42-4750-a6ce-ad0fb2eb405d.png',
-      year: 2022,
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      degreeType: 'Secondary',
+      institute: 'Baitush Sharaf Jabbaria Academy School & College',
+      instituteurl: '',
+      degree: 'Science',
+      result: '',
+      session: 'January 2013',
+      upto: 'June 2015',
+      tasks: [' ', ''],
     },
   ],
 };
@@ -288,8 +247,7 @@ export const contactSection: ContactSectionType = {
   title: 'get in touch',
   subtitle: "what's next",
   paragraphs: [
-    "I'm currently looking for a remote job or any new opportunities.",
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    'Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!',
   ],
   link: `mailto:${author.email}`,
 };
@@ -320,6 +278,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Design Inspiration @Brittany Chiang',
+  title: 'Inspired by @Brittany Chiang',
   link: 'https://github.com/bchiang7',
 };

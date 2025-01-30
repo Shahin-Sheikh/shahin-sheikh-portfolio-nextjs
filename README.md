@@ -44,22 +44,6 @@
   yarn dev
 ```
 
-- To change the content, edit `src/utils/portfolio.ts`
-
-- To change the **resume**, change `/public/resume.pdf` with your resume (name must be `resume.pdf`)
-
-- To change the **About Section**, edit `src/containers/About.tsx`
-
-- To change the theme, edit `src/styles/globals.css`
-
-## Continuous Development
-
-- [x] Add animation with framer-motion
-- [ ] Add Content Management System (CMS)
-- [ ] Add test cases
-- [ ] Separate route (archive) for all the projects with filters
-- [ ] Switch to Next 13
-
 ## Acknowledgements
 
 - [https://developer-portfolio-1hanzla100.vercel.app/](https://developer-portfolio-1hanzla100.vercel.app/) - Design Inspiration

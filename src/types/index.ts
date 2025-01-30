@@ -24,6 +24,18 @@ export type ExperienceType = {
   tasks: string[];
 };
 
+// env
+export type EducationType = {
+  result: string;
+  degreeType: string;
+  degree: string;
+  institute: string;
+  instituteurl: string;
+  session: Date | string;
+  upto: Date | 'present' | string;
+  tasks: string[];
+};
+
 export type ProjectType = {
   id: string;
   name: string;
