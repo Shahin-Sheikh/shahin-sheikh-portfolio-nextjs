@@ -175,7 +175,7 @@ export const experienceSection: ExperienceSectionType = {
   experiences: [
     {
       company: 'TechnoNext Ltd.',
-      companyUrl: 'https://bd.linkedin.com/company/technonext',
+      companyUrl: 'https://technonext.com/',
       role: 'Software Engineer',
       started: 'Jan 2023',
       upto: 'Present',

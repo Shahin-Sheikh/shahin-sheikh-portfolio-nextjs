@@ -8,23 +8,23 @@ const BigProjects: React.FC = () => {
   const { title } = bigProjectSection;
   //-------------------------------------------------------------
   const FirstImage = {
-    src: '/assets/images/ProjectPictures/big-images/rsz_1shoplover.jpg',
+    src: '/assets/images/ProjectPictures/big-images/cartup_main.jpg',
     alt: 'Image-Description',
     width: 500,
     height: 300,
   };
   const FirstImageSmall =
-    '/assets/images/ProjectPictures/small-images/shoplover.png';
+    '/assets/images/ProjectPictures/small-images/cartup_main.jpg';
 
   //-------------------------------------------------------------
   const SecondImage = {
-    src: '/assets/images/ProjectPictures/big-images/rsz_foodi.jpg',
+    src: '/assets/images/ProjectPictures/big-images/foodi_v2.jpg',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const SecondImageSmall =
-    '/assets/images/ProjectPictures/small-images/foodi.jpg';
+    '/assets/images/ProjectPictures/small-images/foodi_v2.jpg';
 
   //-------------------------------------------------------------
   const ThirdImage = {
@@ -61,10 +61,10 @@ const BigProjects: React.FC = () => {
         <BigProjectCard
           image={FirstImage}
           imageUrl={FirstImageSmall}
-          title="Shoplover"
-          description="ShopLover is a cutting-edge e-commerce platform revolutionizing online shopping experiences. Built with the latest technologies including Next.js, Go, PostgreSQL, and Node.js, ShopLover utilizes a microservices architecture for unparalleled scalability, flexibility, and performance."
+          title="CartUp"
+          description="Cartup ltd. is a dynamic multi-seller e-commerce platform based in Bangladesh, offering a simple, convenient, and value-for-money online shopping experience for both customers and sellers. As a concern of the renowned U.S. Bangla Airlines, we are empowered by the strength, resources, and expertise of a leading multinational conglomerate, enabling us to build a world-class marketplace that delivers exceptional value, product diversity, and operational efficiency."
           gitLink="#"
-          liveLink="https://shoplover.com/"
+          liveLink="https://cartup.com/"
           youtubeLink="#"
           techStackList={[
             'Next.js',
@@ -78,8 +78,8 @@ const BigProjects: React.FC = () => {
         <BigProjectCardReversed
           image={SecondImage}
           imageUrl={SecondImageSmall}
-          title="Foodi-BD"
-          description="Bangladesh’s leading food delivery app with over 5000+ restaurants along with amazing deals and services. Foodi's user-friendly platform empowers customers to effortlessly browse menus, place orders with a few simple taps, and track the status of their delivery in real-time."
+          title="Foodi"
+          description="Foodi is a leading food delivery app in Bangladesh, offering a seamless and convenient way for users to enjoy their favorite meals from a wide range of restaurants. With a user-friendly interface, fast delivery services, and multiple payment options, Foodi is transforming the way people experience food delivery. Whether you're craving traditional Bangladeshi cuisine, international flavors, or fast food, Foodi connects you with top restaurants in your city."
           gitLink="#"
           liveLink="https://foodibd.com/"
           youtubeLink="#"
@@ -106,7 +106,7 @@ const BigProjects: React.FC = () => {
         <BigProjectCardReversed
           image={FourthImage}
           imageUrl={FourthImageSmall}
-          title="Corporate Sim Registration Automation"
+          title="Sim Registration Automation"
           description="The Teletalk Project Corporate SIM Registration Automation is a groundbreaking initiative aimed at streamlining and enhancing the process of registering corporate SIM cards within the telecommunications network."
           gitLink="#"
           liveLink="https://www.teletalk.com.bd/bn/"

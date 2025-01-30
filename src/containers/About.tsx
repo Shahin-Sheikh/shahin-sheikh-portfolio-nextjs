@@ -37,7 +37,7 @@ const About = () => {
             Fast-forward to today, and I’ve had the privilege of working at a
             renowned -{' '}
             <Link
-              href="https://www.linkedin.com/company/technonext/mycompany/"
+              href="https://technonext.com/"
               target="_blank"
               className="text-accent"
             >
