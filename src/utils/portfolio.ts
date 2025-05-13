@@ -30,7 +30,7 @@ export const socialLinks: StringKeyValueType = {
 
 export const author = {
   name: 'Shahin Sheikh',
-  email: 'shahinsheikh885@gmail.com',
+  email: 'mdshahinsheikh763@gmail.com',
 };
 
 export const seoData = {
@@ -42,7 +42,7 @@ export const seoData = {
   url: '',
   keywords: [
     'Shahin',
-    'Shahin Sheikh',
+    'Md. Shahin Sheikh',
     '@Shahin Sheikh',
     'Shahin Sheikh',
     'Portfolio',
