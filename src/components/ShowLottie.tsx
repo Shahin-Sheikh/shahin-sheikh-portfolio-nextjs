@@ -1,4 +1,10 @@
-import { Player } from '@lottiefiles/react-lottie-player';
+import dynamic from 'next/dynamic';
+import React from 'react';
+
+const Player = dynamic(
+  () => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player),
+  { ssr: false }
+);
 
 type Props = {
   path: any;
@@ -8,7 +14,7 @@ type Props = {
 const ShowLottie = ({ path, className = '' }: Props) => {
   return (
     <div className={`max-w-sm md:max-w-md ${className}`}>
-      <Player autoplay loop src={path}></Player>
+      <Player autoplay loop src={path} />
     </div>
   );
 };

@@ -8,43 +8,43 @@ const BigProjects: React.FC = () => {
   const { title } = bigProjectSection;
   //-------------------------------------------------------------
   const FirstImage = {
-    src: '/assets/images/ProjectPictures/big-images/cartup_main.jpg',
+    src: '/assets/images/ProjectPictures/big-images/cartup_logo.png',
     alt: 'Image-Description',
     width: 500,
     height: 300,
   };
   const FirstImageSmall =
-    '/assets/images/ProjectPictures/small-images/cartup_main.jpg';
+    '/assets/images/ProjectPictures/small-images/cartup_logo.png';
 
   //-------------------------------------------------------------
   const SecondImage = {
-    src: '/assets/images/ProjectPictures/big-images/foodi_v2.jpg',
+    src: '/assets/images/ProjectPictures/big-images/foodi_logo.jpg',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const SecondImageSmall =
-    '/assets/images/ProjectPictures/small-images/foodi_v2.jpg';
+    '/assets/images/ProjectPictures/small-images/foodi_logo.jpg';
 
   //-------------------------------------------------------------
   const ThirdImage = {
-    src: '/assets/images/ProjectPictures/big-images/rsz_firsttrip.jpg',
+    src: '/assets/images/ProjectPictures/big-images/firstrip_logo.webp',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const ThirdImageSmall =
-    '/assets/images/ProjectPictures/small-images/firsttrip.jpg';
+    '/assets/images/ProjectPictures/small-images/firstrip_logo.webp';
 
   //-------------------------------------------------------------
   const FourthImage = {
-    src: '/assets/images/ProjectPictures/big-images/rsz_2teletalkbig.png',
+    src: '/assets/images/ProjectPictures/big-images/teletalk_logo.jpg',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const FourthImageSmall =
-    '/assets/images/ProjectPictures/small-images/teletalk.jpg';
+    '/assets/images/ProjectPictures/small-images/teletalk_logo.jpg';
 
   //-------------------------------------------------------------
 
