@@ -83,8 +83,8 @@ export const heroSection: HeroSectionType = {
   tagline:
     'I build digital products that are delightful to use, and deliver exceptional results.',
   description:
-    "I'm a passionate Software Engineer with experience building web applications using modern technologies like ReactJS (including NextJS), Go/Gin, and Node.js. I'm proficient in both relational (PostgreSQL) and NoSQL (MongoDB) databases.",
-  specialText: 'Software Engineer @TechnoNext Ltd. - Us Bangla Group',
+    'Passionate Software Engineer with 3+ years of experience building scalable, accessible, and high-performance web applications. Proficient in modern JavaScript frameworks, cloud infrastructure, and cross-functional collaboration. Proven ability to deliver on-time solutions for high-impact projects in e-commerce, travel, and authentication systems.',
+  specialText: 'Software Engineer @TechnoNext Ltd.',
 
   cta: {
     title: 'see my resume',
@@ -104,11 +104,15 @@ export const aboutSection: AboutSectionType = {
       'React.js',
       'Typescript',
       'Javascript',
-      'Go',
-      'Gin',
+      'C#',
       'Node.js',
+      '.NET',
       'PostgreSQL',
       'MongoDB',
+      'gRPC',
+      'Kafka',
+      'Redis',
+      'Redux',
       'TailwindCSS',
       'Primereact',
       'Antd',
@@ -142,7 +146,7 @@ export const skillsSection: SkillsSectionType = {
       },
       points: [
         'Develop a dynamic and responsive web application: Utilize Next.js, a React framework, to build an interactive and user-friendly website that adapts seamlessly across various devices.',
-        'Implement RESTful APIs: Construct robust APIs that adhere to the REST architectural style. Choose between Go/Gin or Node.js for backend development, allowing communication between the frontend and data sources.',
+        'Implement RESTful APIs: Construct robust APIs that adhere to the REST architectural style. Choose between .NET or Node.js for backend development, allowing communication between the frontend and data sources.',
         'Administer PostgreSQL and MongoDB databases: Manage data storage and retrieval using either PostgreSQL, a relational database, or MongoDB, a NoSQL database, depending on your projects specific needs.',
       ],
       softwareSkills: [
@@ -154,7 +158,8 @@ export const skillsSection: SkillsSectionType = {
         },
         { name: 'next.js', icon: 'logos:nextjs-icon' },
         { name: 'react.js', icon: 'logos:react' },
-        { name: 'golang', icon: 'logos:go' },
+        { name: 'csharp', icon: 'logos:c-sharp' },
+        { name: 'dotnet', icon: 'logos:dotnet' },
         { name: 'node.js', icon: 'logos:nodejs-icon' },
         { name: 'HTML5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS3', icon: 'vscode-icons:file-type-css' },
@@ -180,7 +185,7 @@ export const experienceSection: ExperienceSectionType = {
       started: 'Jan 2023',
       upto: 'Present',
       tasks: [
-        'At TechnoNext Ltd., I played a key role in crafting innovative digital solutions across various sectors like Ecommerce, Food Delivery, and Online Travel Agencies (OTA). My expertise lies in front-end development, utilizing ReactJS, NextJS, Typescript, and a comprehensive design library toolkit encompassing Material UI, Ant Design, Prime React, and Formik. Additionally, my backend development experience includes Go/Gin, NodeJS, PostgreSQL, and MongoDB.        ',
+        'At TechnoNext Ltd., I played a key role in crafting innovative digital solutions across various sectors like Ecommerce, Food Delivery, and Online Travel Agencies (OTA). My expertise lies in front-end development, utilizing ReactJS, NextJS, Typescript, and a comprehensive design library toolkit encompassing Material UI, Ant Design, Prime React, and Formik. Additionally, my backend development experience includes C#/.NET, NodeJS, PostgreSQL, and MongoDB.',
         'Translate creative concepts into tangible solutions through collaboration with designers, project managers, and engineers, meeting client and stakeholder needs.',
         'Drive effective engineering leadership by collaborating closely, facilitating knowledge sharing sessions, and actively mentoring team members.',
       ],

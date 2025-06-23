@@ -2,11 +2,11 @@
   "name": "",
   "short_name": "",
   "icons": [
-    { "src": "/shahin-sheikh.jpg", "sizes": "192x192", "type": "image/png" },
+    { "src": "/shahin-sheikh.jpg", "sizes": "192x192", "type": "image/jpg" },
     {
       "src": "/shahin-sheikh.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpg"
     }
   ],
   "theme_color": "#ffffff",

@@ -10,8 +10,8 @@ const BigProjects: React.FC = () => {
   const FirstImage = {
     src: '/assets/images/ProjectPictures/big-images/cartup_logo.png',
     alt: 'Image-Description',
-    width: 500,
-    height: 300,
+    width: 800,
+    height: 600,
   };
   const FirstImageSmall =
     '/assets/images/ProjectPictures/small-images/cartup_logo.png';
@@ -28,23 +28,23 @@ const BigProjects: React.FC = () => {
 
   //-------------------------------------------------------------
   const ThirdImage = {
-    src: '/assets/images/ProjectPictures/big-images/firstrip_logo.webp',
+    src: '/assets/images/ProjectPictures/big-images/firsttrip_logo.jpg',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const ThirdImageSmall =
-    '/assets/images/ProjectPictures/small-images/firstrip_logo.webp';
+    '/assets/images/ProjectPictures/small-images/firsttrip_logo.jpg';
 
   //-------------------------------------------------------------
   const FourthImage = {
-    src: '/assets/images/ProjectPictures/big-images/teletalk_logo.jpg',
+    src: '/assets/images/ProjectPictures/big-images/teletalk3500.jpg',
     alt: 'Image-Description',
     width: 800,
     height: 600,
   };
   const FourthImageSmall =
-    '/assets/images/ProjectPictures/small-images/teletalk_logo.jpg';
+    '/assets/images/ProjectPictures/small-images/teletalk3500.jpg';
 
   //-------------------------------------------------------------
 
@@ -69,7 +69,7 @@ const BigProjects: React.FC = () => {
           techStackList={[
             'Next.js',
             'TypeScript',
-            'Go',
+            '.NET',
             'Node.js',
             'PostgreSQL',
           ]}
@@ -86,7 +86,7 @@ const BigProjects: React.FC = () => {
           techStackList={[
             'Next.js',
             'TypeScript',
-            'Go',
+            '.NET',
             'Node.js',
             'PostgreSQL',
           ]}
@@ -100,7 +100,7 @@ const BigProjects: React.FC = () => {
           gitLink="#"
           liveLink="https://partner.firsttrip.com/"
           youtubeLink="#"
-          techStackList={['React.js', 'JavaScript', 'Node.js', '.Net', 'MySQL']}
+          techStackList={['React.js', 'JavaScript', 'Node.js', '.NET', 'MySQL']}
         />
 
         <BigProjectCardReversed
